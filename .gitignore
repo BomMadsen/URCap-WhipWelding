@@ -1,0 +1,22 @@
+# use glob syntax.
+syntax: glob
+*.class
+*~
+*.bak
+*.off
+*.old
+
+# Eclipse
+.classpath
+.project
+.settings
+
+com.ur.urcap.whip/.settings/
+com.ur.urcap.whip/.gitignore
+com.ur.urcap.whip/target/classes/
+com.ur.urcap.whip/target/test-classes/
+com.ur.urcap.whip/target/generated-sources/
+com.ur.urcap.whip/target/generated-test-sources/
+com.ur.urcap.whip/target/maven-status/
+com.ur.urcap.whip/target/surefire-reports/
+com.ur.urcap.whip/.pydevproject

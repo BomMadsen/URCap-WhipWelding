@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Whip</title>
+		<style>
+			input {
+				display: inline-block;
+				width: 100px;
+				height: 25px;
+			}
+			div.spacer {
+				padding-top: 1px;
+	 		}
+		</style>
+	</head>
+	<body>
+		<p> This is a sample URCap, and is not designed for actual welding operation. <i> Use with care! </i></p>
+		<div class="spacer">&nbsp;</div>
+		<form>
+			<p> Choose a Feature Plane from the dropdown: </p>
+			<select id="selObject">
+				<option>&lt;empty&gt;</option>
+			</select>
+			<div id="planestatuslabelDiv"> 
+				<label id="planestatuslabel">
+			</div>
+			<div class="spacer">&nbsp;</div>
+			Width: <input id="width" type="number" min="0" size="10"> mm <br \>
+			Spacing: <input id="spacing" type="number" min="0" size="10"> mm <br \>
+			Speed: <input id="speed" type="number" min="0" size="10"> mm/s <br \>
+		</form>
+		<div class="spacer">&nbsp;</div>
+		<div id="illustrationImgDiv">
+			<img src="none.png" id="illustrationImg">
+		</div>
+	</body>
+</html> 
